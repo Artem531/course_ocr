@@ -32,7 +32,6 @@ class DataItem:
     def gt_data(self)->dict:
         if hasattr(self, '_gt_data'):
             return self._gt_data
-
         try:
             with open(self.gt_path, 'r') as f:
                 self._gt_data = json.loads(f.read())
