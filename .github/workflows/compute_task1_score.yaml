@@ -1,4 +1,4 @@
-name: Compute taks3 score
+name: Compute task1 score
 
 on: [push]
 
