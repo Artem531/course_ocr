@@ -1,5 +1,6 @@
 # Задание 2: распознавание рукописных китайских иероглифов
-
+# Идея: использовать Arcface loss + mobilenet
+Веса лежат по ссылке https://drive.google.com/drive/folders/1mgmZrqIHuoYrXdxOGrC4CdoysVuv8Em_?usp=sharing
 ## Описание
 
 Предлагается реализовать и протестировать обучаемое распознавание символов на примере датасета `CASIA Offline Chinese Handwriting`
